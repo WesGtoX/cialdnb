@@ -5,6 +5,7 @@
 
 <p align="center">
   <a href="#about-the-project">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#overview">Overview</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#technology">Technology</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#getting-started">Getting Started</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#roadmap">Roadmap</a>&nbsp;&nbsp;|&nbsp;&nbsp;
@@ -23,6 +24,10 @@
 ## About the Project
 
 CIALdnb is a command line application, which through a list of URL's, extracts the `logo` data, all the `phone` numbers on the page, and the link of the visited `website`.
+
+
+## Overview
+- [CHANGELOG](CHANGELOG.md)
 
 
 ## Technology 
