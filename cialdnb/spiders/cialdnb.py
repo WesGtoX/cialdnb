@@ -33,6 +33,6 @@ class CIALdnbSpider(scrapy.Spider):
         phones = re.findall(
             r'\+?\s?\d{0,2}\s\(?\d{1,4}\)?[\s-]\d{2,4}[\s-]\d{2,4}-?\d{2}', response.body.decode('utf-8')
         )
-        loader.add_value('phones', [''.join(p).strip() for p in phones])
+        loader.add_value('phones', set([''.join(p).strip() for p in phones]))
 
         yield loader.load_item()
