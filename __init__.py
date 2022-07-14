@@ -1,0 +1,1 @@
+import cialdnb.main  # noqa
